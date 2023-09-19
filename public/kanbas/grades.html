@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        table {
+            width: 100%;
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+        input {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Studio</a></li>
+                    <li><a href="#">Commons</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Modules</a></li>
+                    <li><a href="#">Piazza</a></li>
+                    <li><a href="#">Zoom Meetings</a></li>
+                    <li><a href="#">Assignments</a></li>
+                    <li><a href="#">Quizzes</a></li>
+                    <li><a href="grades.html">Grades</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Panopto Video</a></li>
+                    <li><a href="#">Discussions</a></li>
+                    <li><a href="#">Announcements</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Files</a></li>
+                    <li><a href="#">Rubrics</a></li>
+                    <li><a href="#">Outcomes</a></li>
+                    <li><a href="#">Collaborations</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </td>
+            <td>
+                <select id="gradebook">
+                    <option value="GRADEBOOK">Gradebook</option>
+                </select>
+                <button type="button">Import</button>
+                <select id="export">
+                    <option value="EXPORT">Export</option>
+                </select>
+                <button type="button">Configure</button>
+
+                <h1>Student Names</h1>
+                <input placeholder="Search Students" id="text-field-student" /><br />
+
+                <h1>Assignment Names</h1>
+                <input placeholder="Search Assignments" id="text-field-assignment" /><br />
+                <button type="button">Apply Filters</button>
+                <table border="1" width="100%" style="text-align: center;">
+                    <thead>
+                        <tr>
+                            <td>
+                                Student Name
+                            </td>
+                            <td>
+                                A1 Setup
+                            </td>
+                            <td>
+                                A2 HTML
+                            </td>
+                            <td>
+                                A3 CSS
+                            </td>
+                            <td>
+                                A4 BOOTSTRAP
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Batman
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                <input placeholder="100" />
+                            </td>
+                            <td>
+                                100
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Joker
+                            </td>
+                            <td>
+                                <input placeholder="100" />
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                100
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Robin
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                <input placeholder="100" />
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                100
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Bane
+                            </td>
+                            <td>
+                                <input placeholder="100" />
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                <input placeholder="100" />
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
