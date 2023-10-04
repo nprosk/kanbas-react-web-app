@@ -1,0 +1,23 @@
+.list-group-item-primary.override-bs {
+    background-color: #ffffff;
+    color:#ff0000;
+    border-width: 0px;
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.list-group-item-primary.active.override-bs {
+    background-color: #ffffff;
+    color:#000000;
+    border-width: 0px;
+    border-left-color: #000000;
+    border-left-width: 3px;
+    padding-left: 8px;
+    font-size: 20px;
+}
+
+.custom-col2 {
+    width: 200px; /* Set the width to 80 pixels */
+    height: 100vh;
+    margin-left: 20px;
+}

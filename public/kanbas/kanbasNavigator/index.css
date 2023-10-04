@@ -1,0 +1,16 @@
+.list-group-item-action.override-bs {
+    background-color: #000000;
+    color:#ffffff;
+    font-size: 11px;
+}
+
+.list-group-item-action.active.override-bs {
+    background-color: #ffffff;
+    color:#ff0000;
+    font-size: 11px;
+}
+
+.custom-col {
+    width: 80px; /* Set the width to 80 pixels */
+    height: 100vh;
+}
