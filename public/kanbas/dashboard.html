@@ -1,92 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="../vendors/fontawesome/css/all.css" rel="stylesheet" />
-        <link href="home.css" rel="stylesheet" />
 
-    </head>
-    <body>
-        <div class="col-1 bg-black text-white custom-col">
+<head>
+    <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../vendors/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="home.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="bg-black text-white custom-col">
             <div class="list-group">
-              <a href="#" class="list-group-item list-group-item-action override-bs">
-                <div class="d-flex justify-content-center align-items-center m-2">
-                  <i class="fa fa-building fa-6x" style="color: #ff0000;"></i>
-                </div>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action override-bs">
-                <div class="d-flex justify-content-center align-items-center m-1">
-                  <i class="fa fa-user fa-3x" style="color: #c0c0c0;"></i>
-                </div>
-                <div class="text-center">
-                  Account
-                </div>
-              </a>
-              <a href="dashboard.html" class="list-group-item list-group-item-action active override-bs" aria-current="true">
-                <div class="d-flex justify-content-center align-items-center m-1">
-                  <i class="fa fa-tachometer-alt fa-2x" style="color: #ff0000;"></i>
-                </div>
-                <div class="text-center">
-                  Dashboard
-                </div>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action override-bs">
-                <div class="d-flex justify-content-center align-items-center m-1">
-                  <i class="fa fa-book fa-2x" style="color: #ff0000;"></i>
-                </div>
-                <div class="text-center">
-                  Courses
-                </div>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action override-bs">
-                <div class="d-flex justify-content-center align-items-center m-1">
-                  <i class="fa fa-calendar fa-2x" style="color: #ff0000;"></i>
-                </div>
-                <div class="text-center">
-                  Calendar
-                </div>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action override-bs">
-                <div class="d-flex justify-content-center align-items-center m-1">
-                  <i class="fa fa-inbox fa-2x" style="color: #ff0000;"></i>
-                </div>
-                <div class="text-center">
-                  Inbox
-                </div>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action override-bs">
-                <div class="d-flex justify-content-center align-items-center m-1">
-                  <i class="fa fa-clock fa-2x" style="color: #ff0000;"></i>
-                </div>
-                <div class="text-center">
-                  History
-                </div>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action override-bs">
-                <div class="d-flex justify-content-center align-items-center m-1">
-                  <i class="fa fa-tv fa-2x" style="color: #ff0000;"></i>
-                </div>
-                <div class="text-center">
-                  Studio
-                </div>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action override-bs">
-                <div class="d-flex justify-content-center align-items-center m-1">
-                  <i class="fa fa-arrow-right fa-2x" style="color: #ff0000;"></i>
-                </div>
-                <div class="text-center">
-                  Commons
-                </div>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action override-bs">
-                <div class="d-flex justify-content-center align-items-center m-1">
-                  <i class="fa fa-question-circle fa-2x" style="color: #ff0000;"></i>
-                </div>
-                <div class="text-center">
-                  Help
-                </div>
-              </a>
+                <a href="home.html" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-2">
+                        <i class="fa fa-building fa-6x" style="color: #ff0000;"></i>
+                    </div>
+                </a>
+                <a href="profile/index.html" class="list-group-item list-group-item-action override-bs"
+                    aria-current="true">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-user fa-3x" style="color: #c0c0c0;"></i>
+                    </div>
+                    <div class="text-center">
+                        Account
+                    </div>
+                </a>
+                <a href="dashboard.html" class="list-group-item list-group-item-action active override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-tachometer-alt fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Dashboard
+                    </div>
+                </a>
+                <a href="home.html" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-book fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Courses
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-calendar fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Calendar
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-inbox fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Inbox
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-clock fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        History
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-tv fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Studio
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-arrow-right fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Commons
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-question-circle fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Help
+                    </div>
+                </a>
             </div>
-          </div>
-    </body>
-    </html>
+        </div>
+        <div class="col me-4">
+            <h1>Dashboard</h1>
+            <hr />
+            <div class="ms-4">
+                <h3>Published Courses</h3>
+                <hr />
+                <div class="d-flex flex-row flex-wrap">
+                    <div class="card m-3" style="width: 250px;">
+                        <a href="#" class="stretched-link"></a>
+
+                        <img src="images/blue.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="card m-3" style="width: 250px;">
+                        <a href="#" class="stretched-link"></a>
+
+                        <img src="images/blue.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="card m-3" style="width: 250px;">
+                        <a href="#" class="stretched-link"></a>
+
+                        <img src="images/blue.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="card m-3" style="width: 250px;">
+                        <a href="#" class="stretched-link"></a>
+
+                        <img src="images/blue.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="card m-3" style="width: 250px;">
+                        <a href="#" class="stretched-link"></a>
+
+                        <img src="images/blue.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="card m-3" style="width: 250px;">
+                        <a href="#" class="stretched-link"></a>
+
+                        <img src="images/blue.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="card m-3" style="width: 250px;">
+                        <a href="#" class="stretched-link"></a>
+
+                        <img src="images/blue.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content.</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

@@ -2,78 +2,184 @@
 <html lang="en">
 
 <head>
-    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet">
-    <line href="../home.css" rel="stylesheet">
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="../home.css" rel="stylesheet" />
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td>
-                <ul>
-                    <li><a href="#">Account</a></li>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="../home.html">Courses</a></li>
-                    <li><a href="#">Calendar</a></li>
-                    <li><a href="#">Inbox</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Studio</a></li>
-                    <li><a href="#">Commons</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li><a href="../home.html">Home</a></li>
-                    <li><a href="#">Modules</a></li>
-                    <li><a href="#">Piazza</a></li>
-                    <li><a href="#">Zoom Meetings</a></li>
-                    <li><a href="index.html">Assignments</a></li>
-                    <li><a href="#">Quizzes</a></li>
-                    <li><a href="../grades.html">Grades</a></li>
-                    <li><a href="#">People</a></li>
-                    <li><a href="#">Panopto Video</a></li>
-                    <li><a href="#">Discussions</a></li>
-                    <li><a href="#">Announcements</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Files</a></li>
-                    <li><a href="#">Rubrics</a></li>
-                    <li><a href="#">Outcomes</a></li>
-                    <li><a href="#">Collaborations</a></li>
-                    <li><a href="#">Syllabus</a></li>
-                    <li><a href="#">Settings</a></li>
-                </ul>
-            </td>
-            <td>
-                Nicolas Proskauer's Profile
-
-                <hr>
-                <form action="edit.html" style="text-align: end;"><button>Edit Profile</button></form>
-                <i class="fa fa-user fa-3x" style="color: #c0c0c0;"></i>
-                <h1>Nicolas Proskauer</h1>
-
-                <h2>
-                    Contact
-                </h2>
-                <p>
-                    No registered services
-                </p>
-                <h2>
-                    Biography
-                </h2>
-                <p>
-                    The guy doing stuff
-                </p>
-                <h2>
-                    Links
-                </h2>
-                <p>
-                    <a href="#">YouTube</a>
-                </p>
-            </td>
-        </tr>
-    </table>
+    <div class="row">
+        <div class="bg-black text-white custom-col">
+            <div class="list-group">
+                <a href="../home.html" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-2">
+                        <i class="fa fa-building fa-6x" style="color: #ff0000;"></i>
+                    </div>
+                </a>
+                <a href="index.html" class="list-group-item list-group-item-action active override-bs" aria-current="true">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-user fa-3x" style="color: #c0c0c0;"></i>
+                    </div>
+                    <div class="text-center">
+                        Account
+                    </div>
+                </a>
+                <a href="../dashboard.html" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-tachometer-alt fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Dashboard
+                    </div>
+                </a>
+                <a href="../home.html" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-book fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Courses
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-calendar fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Calendar
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-inbox fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Inbox
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-clock fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        History
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-tv fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Studio
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-arrow-right fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Commons
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-question-circle fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Help
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col mt-3">
+            <i class="fa fa-bars pe-4" style="color: #ff0000;"></i>
+            Nicolas Proskauer's Profile
+            <hr>
+            <div class="row">
+                <div class="custom-col2">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-primary override-bs">
+                            <div class="text-left">
+                                Notifications
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-primary active override-bs"
+                            aria-current="true">
+                            <div class="text-left">
+                                Profile
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-primary override-bs">
+                            <div class="text-left">
+                                Files
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-primary override-bs">
+                            <div class="text-left">
+                                Settings
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-primary override-bs">
+                            <div class="text-left">
+                                ePortfolios
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-primary override-bs">
+                            <div class="text-left">
+                                Shared Content
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-primary override-bs">
+                            <div class="text-left">
+                                The Hub
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-primary override-bs">
+                            <div class="text-left">
+                                Quickly Course Tools
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-primary override-bs">
+                            <div class="text-left">
+                                Global Announcements
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-primary override-bs">
+                            <div class="text-left">
+                                Profile
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    <div class="col">
+    <form action="edit.html" class="me-3" style="text-align: end;"><button class="btn btn-light"><i
+                class="fa fa-pencil-alt me-1"></i>Edit Profile</button></form>
+    <i class="fa fa-user fa-8x" style="color: #c0c0c0;"></i>
+    <h1>Nicolas Proskauer</h1>
+    <br />
+    <h2>
+        Contact
+    </h2>
+    <p>
+        No registered services
+    </p>
+    <br />
+    <h2>
+        Biography
+    </h2>
+    <p>
+        The guy doing stuff
+    </p>
+    <br />
+    <h2>
+        Links
+    </h2>
+    <p>
+        <a href="https://www.youtube.com/watch?v=xgY59LQfZSA">YouTube</a>
+    </p>
+</div>
+</div>
+</div>
+</div>
 </body>
 
 </html>

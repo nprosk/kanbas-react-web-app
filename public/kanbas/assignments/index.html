@@ -1,130 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <style>
-        table {
-            width: 100%;
-        }
+<!DOCTYPE html>
+<html lang="en">
 
-        td {
-            vertical-align: top;
-        }
-    </style>
+<head>
+
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="../home.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+        integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../../vendors/bootstrap/js/bootstrap.min.js" rel="stylesheet"></script>
+
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td>
-                <ul>
-                    <li><a href="#">Account</a></li>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Calendar</a></li>
-                    <li><a href="#">Inbox</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Studio</a></li>
-                    <li><a href="#">Commons</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li><a href="../home.html">Home</a></li>
-                    <li><a href="#">Modules</a></li>
-                    <li><a href="#">Piazza</a></li>
-                    <li><a href="#">Zoom Meetings</a></li>
-                    <li><a href="index.html">Assignments</a></li>
-                    <li><a href="#">Quizzes</a></li>
-                    <li><a href="../grades.html">Grades</a></li>
-                    <li><a href="#">People</a></li>
-                    <li><a href="#">Panopto Video</a></li>
-                    <li><a href="#">Discussions</a></li>
-                    <li><a href="#">Announcements</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Files</a></li>
-                    <li><a href="#">Rubrics</a></li>
-                    <li><a href="#">Outcomes</a></li>
-                    <li><a href="#">Collaborations</a></li>
-                    <li><a href="#">Syllabus</a></li>
-                    <li><a href="#">Settings</a></li>
-                </ul>
-            </td>
-            <td>
-                <input placeholder="Search for Assignments" />
-                <button type="button">Group</button>
-                <button type="button">Assignment</button>
-                <select id="date">
-                    <option value="edit">Edit Assignment Dates</option>
-                </select>
+    <div class="row">
+        <div class="bg-black text-white custom-col">
+            <div class="list-group">
+                <a href="../home.html" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-2">
+                        <i class="fa fa-building fa-6x" style="color: #ff0000;"></i>
+                    </div>
+                </a>
+                <a href="../profile/index.html" class="list-group-item list-group-item-action override-bs"
+                    aria-current="true">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-user fa-3x" style="color: #c0c0c0;"></i>
+                    </div>
+                    <div class="text-center">
+                        Account
+                    </div>
+                </a>
+                <a href="../dashboard.html" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-tachometer-alt fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Dashboard
+                    </div>
+                </a>
+                <a href="../home.html" class="list-group-item list-group-item-action active override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-book fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Courses
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-calendar fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Calendar
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-inbox fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Inbox
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-clock fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        History
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-tv fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Studio
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-arrow-right fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Commons
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action override-bs">
+                    <div class="d-flex justify-content-center align-items-center m-1">
+                        <i class="fa fa-question-circle fa-2x" style="color: #ff0000;"></i>
+                    </div>
+                    <div class="text-center">
+                        Help
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row">
+                <div class="col-auto">
+                    <i class="fa fa-bars pe-4" style="color: #ff0000;"></i>
+                </div>
+                <div class="col">
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="../home.html">CS4550 Web Dev</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Assignments</li>
+                        </ol>
+                    </nav>
+                </div>
+                <hr />
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <div class="custom-col2">
+                        <p><em>CS4550 Web Dev</em></p>
+                        <div class="list-group">
+                            <a href="../home.html" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Home
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs" aria-current="true">
+                                <div class="text-left">
+                                    Modules
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Piazza
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Zoom Meetings
+                                </div>
+                            </a>
+                            <a href="index.html" class="list-group-item list-group-item-primary active override-bs">
+                                <div class="text-left">
+                                    Assignments
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Quizzes
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Grades
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    People
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Panopto Video
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Discussions <i class="fa fa-eye-slash ps-2" style="color: black;"></i>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Announcements <i class="fa fa-eye-slash ps-2" style="color: black;"></i>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Pages <i class="fa fa-eye-slash ps-2" style="color: black;"></i>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Files <i class="fa fa-eye-slash ps-2" style="color: black;"></i>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Rubrics <i class="fa fa-eye-slash ps-2" style="color: black;"></i>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Outcomes <i class="fa fa-eye-slash ps-2" style="color: black;"></i>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Collaborations <i class="fa fa-eye-slash ps-2" style="color: black;"></i>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Syllabus <i class="fa fa-eye-slash ps-2" style="color: black;"></i>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Progress Reports [EAB Navigate]
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary override-bs">
+                                <div class="text-left">
+                                    Settings
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <input placeholder="Search for Assignments" />
+                    <button type="button">Group</button>
+                    <button type="button">Assignment</button>
+                    <select id="date">
+                        <option value="edit">Edit Assignment Dates</option>
+                    </select>
+                    <form action="edit.html"><button type="button">EDIT ASSIGNMENT</button></form>
 
-                <h1>ASSIGNMENTS 40% of Total <select id="assignments">
-                    <option value="edit">Edit</option>
-                    <option value="speedgrader">Speed Grader</option>
-                    <option value="duplicate">Duplicate</option>
-                    <option value="delete">Delete</option>
-                    <option value="moveto">Move To...</option>
-                    <option value="sendto">Send To...</option>
-                    <option value="copyto">Copy To...</option>
-                    <option value="share">Share to Commons</option>
-                </select></h1>
-                <ul>
-                    <li><a href="edit.html">A1</a></li>
-                    <li><a href="edit.html">A2</a></li>
-                    <li><a href="edit.html">A3</a></li>
-                    <li><a href="edit.html">A4</a></li>
-                    <li><a href="edit.html">A5</a></li>
-                    <li><a href="edit.html">A6</a></li>
-                </ul>
+                    <h1>ASSIGNMENTS 40% of Total <select id="assignments">
+                            <option value="edit">Edit</option>
+                            <option value="speedgrader">Speed Grader</option>
+                            <option value="duplicate">Duplicate</option>
+                            <option value="delete">Delete</option>
+                            <option value="moveto">Move To...</option>
+                            <option value="sendto">Send To...</option>
+                            <option value="copyto">Copy To...</option>
+                            <option value="share">Share to Commons</option>
+                        </select></h1>
+                    <ul>
+                        <li><a href="edit.html">A1</a></li>
+                        <li><a href="edit.html">A2</a></li>
+                        <li><a href="edit.html">A3</a></li>
+                        <li><a href="edit.html">A4</a></li>
+                        <li><a href="edit.html">A5</a></li>
+                        <li><a href="edit.html">A6</a></li>
+                    </ul>
 
-                <h1>QUIZZES 10% of Total <select id="quizzes">
-                    <option value="edit">Edit</option>
-                    <option value="speedgrader">Speed Grader</option>
-                    <option value="duplicate">Duplicate</option>
-                    <option value="delete">Delete</option>
-                    <option value="moveto">Move To...</option>
-                    <option value="sendto">Send To...</option>
-                    <option value="copyto">Copy To...</option>
-                    <option value="share">Share to Commons</option>
-                </select></h1>
-                <ul>
-                    <li><a href="edit.html">Q1</a></li>
-                    <li><a href="edit.html">Q2</a></li>
-                    <li><a href="edit.html">Q3</a></li>
-                    <li><a href="edit.html">Q4</a></li>
-                    <li><a href="edit.html">Q5</a></li>
-                </ul>
-                <h1>EXAMS 20% of Total <select id="exams">
-                    <option value="edit">Edit</option>
-                    <option value="speedgrader">Speed Grader</option>
-                    <option value="duplicate">Duplicate</option>
-                    <option value="delete">Delete</option>
-                    <option value="moveto">Move To...</option>
-                    <option value="sendto">Send To...</option>
-                    <option value="copyto">Copy To...</option>
-                    <option value="share">Share to Commons</option>
-                </select></h1>
-                <ul>
-                    <li><a href="edit.html">Midterm</a></li>
-                    <li><a href="edit.html">Final</a></li>
-                </ul>
-                <h1>PROJECT 30% of Total <select id="assignments">
-                    <option value="edit">Edit</option>
-                    <option value="speedgrader">Speed Grader</option>
-                    <option value="duplicate">Duplicate</option>
-                    <option value="delete">Delete</option>
-                    <option value="moveto">Move To...</option>
-                    <option value="sendto">Send To...</option>
-                    <option value="copyto">Copy To...</option>
-                    <option value="share">Share to Commons</option>
-                </select></h1>
-                <ul>
-                    <li><a href="edit.html">Project</a></li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+                    <h1>QUIZZES 10% of Total <select id="quizzes">
+                            <option value="edit">Edit</option>
+                            <option value="speedgrader">Speed Grader</option>
+                            <option value="duplicate">Duplicate</option>
+                            <option value="delete">Delete</option>
+                            <option value="moveto">Move To...</option>
+                            <option value="sendto">Send To...</option>
+                            <option value="copyto">Copy To...</option>
+                            <option value="share">Share to Commons</option>
+                        </select></h1>
+                    <ul>
+                        <li><a href="edit.html">Q1</a></li>
+                        <li><a href="edit.html">Q2</a></li>
+                        <li><a href="edit.html">Q3</a></li>
+                        <li><a href="edit.html">Q4</a></li>
+                        <li><a href="edit.html">Q5</a></li>
+                    </ul>
+                    <h1>EXAMS 20% of Total <select id="exams">
+                            <option value="edit">Edit</option>
+                            <option value="speedgrader">Speed Grader</option>
+                            <option value="duplicate">Duplicate</option>
+                            <option value="delete">Delete</option>
+                            <option value="moveto">Move To...</option>
+                            <option value="sendto">Send To...</option>
+                            <option value="copyto">Copy To...</option>
+                            <option value="share">Share to Commons</option>
+                        </select></h1>
+                    <ul>
+                        <li><a href="edit.html">Midterm</a></li>
+                        <li><a href="edit.html">Final</a></li>
+                    </ul>
+                    <h1>PROJECT 30% of Total <select id="assignments">
+                            <option value="edit">Edit</option>
+                            <option value="speedgrader">Speed Grader</option>
+                            <option value="duplicate">Duplicate</option>
+                            <option value="delete">Delete</option>
+                            <option value="moveto">Move To...</option>
+                            <option value="sendto">Send To...</option>
+                            <option value="copyto">Copy To...</option>
+                            <option value="share">Share to Commons</option>
+                        </select></h1>
+                    <ul>
+                        <li><a href="edit.html">Project</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1>
+                        Course Status
+                    </h1>
+                    <button type="button">Unpublish</button>
+                    <button type="button">Published</button>
+                    <ul>
+                        <li>
+                            <a href="#">Import Existing Content</a>
+                        </li>
+                        <li>
+                            <a href="#">Import From Commons</a>
+                        </li>
+                        <li>
+                            <a href="#">Choose Home Page</a>
+                        </li>
+                        <li>
+                            <a href="#">View Course Stream</a>
+                        </li>
+                        <li>
+                            <a href="#">New Announcement</a>
+                        </li>
+                        <li>
+                            <a href="#">New Analytics</a>
+                        </li>
+                        <li>
+                            <a href="#">View Course Notifications</a>
+                        </li>
+                    </ul>
+                    <h1>
+                        Coming Up
+                    </h1>
+                    <a href="#">View Calendar</a>
+                    <ul>
+                        <li>
+                            <a href="#">Lecture Sep 7 11:45AM</a>
+                        </li>
+                        <li>
+                            <a href="#">Lecture Sep 11 11:45AM</a>
+                        </li>
+                        <li>
+                            <a href="#">Lecture Sep 11 6PM</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
