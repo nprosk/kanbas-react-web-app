@@ -10,7 +10,7 @@ function KanbasNavigation() {
   const colorRed = {color: "#ff0000"};
   const colorGray = "#c0c0c0";
   const links = [
-    {"name": "Home", "icon": <FaN style={{fontSize : '4 rem'}}/>},
+    {"name": "Home", "icon": <FaN style={{fontSize : '4rem'}}/>},
     {"name": "Account", "icon": <FaCircleUser style={{fontSize : '2rem', color : colorGray}}/>}, 
     {"name": "Dashboard", "icon": <AiOutlineDashboard style={{fontSize : '2rem'}}/>},
     {"name": "Courses", "icon": <BiBook style={{fontSize : '2rem'}}/>},
