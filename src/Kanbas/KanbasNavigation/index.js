@@ -24,7 +24,7 @@ function KanbasNavigation() {
   
 
   return (
-    <div className="col-1 bg-black text-white custom-col list-group">
+    <div className="bg-black text-white list-group" style={{borderRadius: "0px", height: "100vh"}}>
       {links.map((link, index) => (
         <Link
           key={index}

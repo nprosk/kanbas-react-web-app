@@ -16,8 +16,8 @@ body {
     border-width: 0cap;
 }
 
-.custom-col {
-    width: 80px; /* Set the width to 80 pixels */
+.custom-col { /* Set the width to 80 pixels */
     height: 100vh;
     border-radius: 0cap;
+    width: 50px;
 }

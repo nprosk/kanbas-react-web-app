@@ -7,6 +7,7 @@ function ModuleList() {
   const { courseId } = useParams();
   const modules = db.modules;
   return (
+    <div className="col-8">
     <ul className="list-group">
       {
        modules
@@ -19,6 +20,7 @@ function ModuleList() {
       ))
       }
     </ul>
+    </div>
   );
 }
 export default ModuleList;

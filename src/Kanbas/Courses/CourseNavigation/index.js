@@ -9,7 +9,7 @@ function CourseNavigation() {
   const { pathname } = useLocation();
   const course = db.courses.find((course) => course._id === courseId);
   return (
-    <div className="ms-3">
+    <div className="ms-2">
     <div className="d-flex" style={{color: "#E3242B", fontSize: "2rem"}}>
         <div className="pe-4">
         <IoReorderThreeOutline/>

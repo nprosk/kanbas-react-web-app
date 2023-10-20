@@ -1,12 +1,13 @@
 import ModuleList from "../Modules/ModuleList";
+import RightPanel from "./RightPanel";
 
 
 function Home() {
   return (
-    <div>
+    <div className="row">
       <h2>Home</h2>
       <ModuleList />
-      <h2>Status</h2>
+      <RightPanel/>
     </div>
   );
 }
