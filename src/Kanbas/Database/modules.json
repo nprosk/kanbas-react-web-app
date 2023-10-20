@@ -1,0 +1,56 @@
+[
+    {
+      "_id": "M101",
+      "name": "Introduction to Rotating",
+      "description": "Basic principles of rotations in Rocket League.",
+      "course": "RL101"
+    },
+    {
+      "_id": "M102",
+      "name": "Rotating Front Post",
+      "description": "Understanding the situations where the player should be rotating front post.",
+      "course": "RL101"
+    },
+    {
+      "_id": "M103",
+      "name": "Cutting Rotation",
+      "description": "Analyzing specific scenarios where cutting rotation is viable.",
+      "course": "RL101"
+    },
+    {
+      "_id": "M201",
+      "name": "Fundamentals of Aerials",
+      "description": "Basic aerial concepts and training packs.",
+      "course": "RL102"
+    },
+    {
+      "_id": "M202",
+      "name": "Fast Aerials",
+      "description": "Learn how to consistently do fast aerials.",
+      "course": "RL102"
+    },
+    {
+      "_id": "M203",
+      "name": "Directional Air Roll",
+      "description": "Learning the basics of directional air roll.",
+      "course": "RL102"
+    },
+    {
+      "_id": "M301",
+      "name": "What is a flip reset?",
+      "description": "Fundamentals of flip resets and how the car is positioned to acquire them.",
+      "course": "RL103"
+    },
+    {
+      "_id": "M302",
+      "name": "Single Flip Resets",
+      "description": "Setup, exectution, and follow-through of a single flip reset.",
+      "course": "RL103"
+    },
+    {
+      "_id": "M303",
+      "name": "Chain Flip Resets",
+      "description": "Rapid resets, stall resets, Muirie resets, and more!",
+      "course": "RL103"
+    }
+  ]

@@ -1,0 +1,19 @@
+[
+    { "_id": "RL101",
+      "name": "Rotations", "number": "RL2500", "startDate": "2023-01-10",
+      "endDate": "2023-12-15",
+      "image": "https://www.travelandleisure.com/thmb/KTIha5CLifSoUD3gx0YP51xc3rY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/blue0517-4dfc85cb0200460ab717b101ac07888f.jpg"
+    },
+    { "_id": "RL102",
+      "name": "Aerials", "number": "RL2510", "startDate": "2023-01-10",
+      "endDate": "2023-12-15"
+      ,
+      "image": "https://www.travelandleisure.com/thmb/KTIha5CLifSoUD3gx0YP51xc3rY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/blue0517-4dfc85cb0200460ab717b101ac07888f.jpg"
+    },
+    { "_id": "RL103",
+      "name": "Flip Resets", "number": "RL3500", "startDate": "2023-01-10",
+      "endDate": "2023-12-15"
+      ,
+      "image": "https://www.travelandleisure.com/thmb/KTIha5CLifSoUD3gx0YP51xc3rY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/blue0517-4dfc85cb0200460ab717b101ac07888f.jpg"
+    }
+]

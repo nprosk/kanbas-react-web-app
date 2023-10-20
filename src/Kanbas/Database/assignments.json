@@ -1,0 +1,11 @@
+[
+    { "_id": "A101", "title": "Back Post Rotations", "course": "RL101" },
+    { "_id": "A102", "title": "Analyzing Pro Replays", "course": "RL101" },
+    { "_id": "A103", "title": "Cutting Rotation Drills", "course": "RL101" },
+    { "_id": "A201", "title": "Rookie Aerial Training Pack", "course": "RL102" },
+    { "_id": "A202", "title": "Veteran Aerial Training Pack", "course": "RL102" },
+    { "_id": "A203", "title": "Pillars Map Figure Eights", "course": "RL102" },
+    { "_id": "A301", "title": "Explanation of Flip Reset Mechanic", "course": "RL103" },
+    { "_id": "A302", "title": "Flip Reset Training Pack", "course": "RL103" },
+    { "_id": "A303", "title": "20 Double Flip Resets", "course": "RL103" }
+  ]

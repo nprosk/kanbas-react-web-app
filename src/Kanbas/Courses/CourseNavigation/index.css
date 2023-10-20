@@ -1,0 +1,62 @@
+.list-group-item-action.override-bs {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 5px;
+    width: 68px;
+}
+
+.list-group-item-action.active.override-bs {
+    background-color: #ffffff;
+    color: #ff0000;
+    font-size: 11px;
+    padding: 5px;
+    width: 68px;
+}
+
+.list-group-item-primary.override-bs {
+    background-color: #ffffff;
+    color:#ff0000;
+    border-width: 0px;
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+.list-group-item-primary.active.override-bs {
+    background-color: #ffffff;
+    color:#000000;
+    border-width: 0px;
+    border-left-color: #000000;
+    border-left-width: 3px;
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.custom-col {
+    width: 80px;
+    /* Set the width to 80 pixels */
+    height: 100vh;
+}
+
+.custom-col2 {
+    width: 200px;
+    height: 100vh;
+    margin-left: 20px;
+}
+
+.btn-light {
+    background-color: #bbbbbb;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    vertical-align: top;
+}
+
+input,
+label {
+    display: block
+}
