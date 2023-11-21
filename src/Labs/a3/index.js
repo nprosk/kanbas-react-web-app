@@ -7,6 +7,9 @@ import { useSelector } from "react-redux";
 
 function Assignment3() {
   const { todos } = useSelector((state) => state.todosReducer);
+  const handleClick = (parameter = "Hello") => {
+    console.log(parameter)
+  }
 
  return (
    <div>

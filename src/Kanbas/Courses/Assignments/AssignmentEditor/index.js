@@ -7,8 +7,6 @@ function AssignmentEditor() {
   const { assignmentId } = useParams();
   const assignment = db.assignments.find(
     (assignment) => assignment._id === assignmentId);
-
-
   const { courseId } = useParams();
   const navigate = useNavigate();
   const handleSave = () => {
