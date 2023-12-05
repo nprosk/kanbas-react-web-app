@@ -19,7 +19,7 @@ function Kanbas() {
     image : "https://www.travelandleisure.com/thmb/KTIha5CLifSoUD3gx0YP51xc3rY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/blue0517-4dfc85cb0200460ab717b101ac07888f.jpg"
   });
   const API_BASE = process.env.REACT_APP_API_BASE;
-const URL = `${API_BASE}/courses`;
+const URL = `${API_BASE}/api/courses`;
   const addCourse = async () => {
     const response = await axios.post(URL, course);
     setCourses([
