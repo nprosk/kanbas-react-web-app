@@ -11,7 +11,9 @@ function KanbasNavigation() {
   const colorGray = "#c0c0c0";
   const links = [
     {"name": "Home", "icon": <FaN style={{fontSize : '4rem'}}/>},
-    {"name": "Account", "icon": <FaCircleUser style={{fontSize : '2rem', color : colorGray}}/>}, 
+    {"name": "Signin", "icon": <FaCircleUser style={{fontSize : '2rem', color : colorGray}}/>},
+    {"name": "Account", "icon": <FaCircleUser style={{fontSize : '2rem', color : colorGray}}/>},  
+    {"name": "Signup", "icon": <FaCircleUser style={{fontSize : '2rem', color : colorGray}}/>},  
     {"name": "Dashboard", "icon": <AiOutlineDashboard style={{fontSize : '2rem'}}/>},
     {"name": "Courses", "icon": <BiBook style={{fontSize : '2rem'}}/>},
     {"name": "Calendar", "icon": <AiOutlineCalendar style={{fontSize : '2rem',}}/>},
